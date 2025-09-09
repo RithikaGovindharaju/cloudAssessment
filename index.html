@@ -1,17 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rithika Govindharaj | Portfolio</title>
+  <style>
+    body {
+      font-family: "Poppins", sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(135deg, #fff9c4, #ffe082, #ffcc80);
+      color: #333;
+    }
+
+    header {
+      background: #fbc02d;
+      text-align: center;
+      padding: 25px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+      color: #4e342e;
+    }
+
+    nav {
+      margin-top: 15px;
+    }
+
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #4e342e;
+      font-weight: bold;
+      transition: all 0.3s;
+    }
+
+    nav a:hover {
+      color: #1b5e20;
+      text-shadow: 1px 1px #fff;
+    }
+
+    section {
+      padding: 50px 20px;
+      margin: 20px;
+      background: white;
+      border-radius: 20px;
+      box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+      text-align: center;
+    }
+
+    section h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+      color: #e65100;
+    }
+
+    .profile-img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      border: 5px solid #fbc02d;
+      margin-bottom: 20px;
+    }
+
+    .education-img {
+      width: 80px;
+      margin-bottom: 10px;
+    }
+
+    .skills-list {
+      list-style: none;
+      padding: 0;
+    }
+
+    .skills-list li {
+      background: #ffd54f;
+      margin: 10px auto;
+      padding: 10px 15px;
+      border-radius: 12px;
+      width: fit-content;
+      font-weight: 500;
+      color: #4e342e;
+      transition: transform 0.2s;
+    }
+
+    .skills-list li:hover {
+      transform: scale(1.05);
+      background: #ffb300;
+      color: white;
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      background: #f57f17;
+      color: white;
+      font-weight: bold;
+      margin-top: 20px;
+    }
+
+    a {
+      color: #e65100;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
 <body>
   <header>
-    <h1>Rithika Govindharaj</h1>
+    <h1>🌻 Rithika Govindharaj 🌻</h1>
     <nav>
       <a href="#about">About</a>
-      <a href="#education">education</a>
+      <a href="#education">Education</a>
       <a href="#skills">Skills</a>
       <a href="#contact">Contact</a>
     </nav>
@@ -19,30 +125,40 @@
 
   <section id="about">
     <h2>About Me</h2>
-    <p>I'm Rithika Govindharaj,a B.Sc Information technology student at SIGC,trichy
-      <p>My goal is to build a strong career in IT and keep learning everyday</p>
-</section>
+    <img src="your-photo.jpg" alt="Rithika Govindharaj" class="profile-img" />
+    <p>I'm <strong>Rithika Govindharaj</strong>, a B.Sc Information Technology student at SIGC, Trichy.</p>
+    <p>My goal is to build a strong career in IT and keep learning every day 🌟</p>
+  </section>
+
   <section id="education">
-    <h2>education</h2>
-    <div class="B.Sc Information Technology-SIGC,trichy (pursuing)">
-      <h3></h3>
-  <p>B.Sc Information Technology-SIGC,trichy (pursuing)</p>
-    </div>
-    <div class="skills">
-      <h3>skills</h3>
-      <p>programming:c,java,python</p>
-      <p>Database:MySQL</p>
+    <h2>Education</h2>
+    <div class="education-item">
+      <img src="sigc-logo.png" alt="SIGC Logo" class="education-img" />
+      <p>B.Sc Information Technology - SIGC, Trichy (pursuing)</p>
     </div>
   </section>
 
-<section id="contact">
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul class="skills-list">
+      <li>💻 Programming: C, Java, Python</li>
+      <li>🗄️ Database: MySQL</li>
+    </ul>
+  </section>
+
+  <section id="contact">
     <h2>Contact</h2>
-    <p>Email:rithika@example.com</p>
-    <p>LinkedIn: <a href="https://linkedin.com/in/Rithika Govindharaj" target="_blank"></a>Rithika Govindharaj</a></p>
+    <p>Email: <a href="mailto:rithika@example.com">rithika@example.com</a></p>
+    <p>Phone: <a href="tel:+919876543210">+91 98765 43210</a></p>
+    <p>LinkedIn: 
+      <a href="https://linkedin.com/in/rithikagovindharaj" target="_blank" rel="noopener noreferrer">
+        Rithika Govindharaj
+      </a>
+    </p>
   </section>
 
   <footer>
-    <p>&copy; 2025 Rithika Govindharaj</p>
+    <p>&copy; 2025 🌻 Rithika Govindharaj 🌻</p>
   </footer>
 </body>
 </html>
